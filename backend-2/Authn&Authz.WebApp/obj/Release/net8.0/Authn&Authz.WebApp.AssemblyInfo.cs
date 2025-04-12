@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Authn&Authz.WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff88cc05385bf17f4550578026afad0fabe4718c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Authn&Authz.WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Authn&Authz.WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

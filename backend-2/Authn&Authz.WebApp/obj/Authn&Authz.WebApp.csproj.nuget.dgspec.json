@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Aravindha Samy\\CookieBasedAuthentication Angular18 and .Net 8\\backend\\Authn&Authz.WebApp\\Authn&Authz.WebApp.csproj": {}
+    "D:\\Aravindha Samy\\CookieBasedAuthentication Angular18 and .Net 8\\backend-2\\Authn&Authz.WebApp\\Authn&Authz.WebApp.csproj": {}
   },
   "projects": {
-    "D:\\Aravindha Samy\\CookieBasedAuthentication Angular18 and .Net 8\\backend\\Authn&Authz.WebApp\\Authn&Authz.WebApp.csproj": {
+    "D:\\Aravindha Samy\\CookieBasedAuthentication Angular18 and .Net 8\\backend-2\\Authn&Authz.WebApp\\Authn&Authz.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Aravindha Samy\\CookieBasedAuthentication Angular18 and .Net 8\\backend\\Authn&Authz.WebApp\\Authn&Authz.WebApp.csproj",
+        "projectUniqueName": "D:\\Aravindha Samy\\CookieBasedAuthentication Angular18 and .Net 8\\backend-2\\Authn&Authz.WebApp\\Authn&Authz.WebApp.csproj",
         "projectName": "Authn&Authz.WebApp",
-        "projectPath": "D:\\Aravindha Samy\\CookieBasedAuthentication Angular18 and .Net 8\\backend\\Authn&Authz.WebApp\\Authn&Authz.WebApp.csproj",
+        "projectPath": "D:\\Aravindha Samy\\CookieBasedAuthentication Angular18 and .Net 8\\backend-2\\Authn&Authz.WebApp\\Authn&Authz.WebApp.csproj",
         "packagesPath": "C:\\Users\\Aravind\\.nuget\\packages\\",
-        "outputPath": "D:\\Aravindha Samy\\CookieBasedAuthentication Angular18 and .Net 8\\backend\\Authn&Authz.WebApp\\obj\\",
+        "outputPath": "D:\\Aravindha Samy\\CookieBasedAuthentication Angular18 and .Net 8\\backend-2\\Authn&Authz.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
