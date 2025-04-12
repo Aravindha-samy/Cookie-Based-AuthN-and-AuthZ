@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,6 +24,14 @@ namespace Authn_Authz.WebApp.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<object> Get()
         {
+            var userClaims = User.Claims;
+
+            // Log the details to the console
+            Console.WriteLine($"User Email: {userClaims}");
+            foreach (var claim in userClaims)
+            {
+                Console.WriteLine($"{claim.Type}: {claim.Value}");
+            }
             return Enumerable.Range(1, 5).Select(index => new 
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
