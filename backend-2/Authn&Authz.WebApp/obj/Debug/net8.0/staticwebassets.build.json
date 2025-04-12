@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Uh6r6lU6OAg89R6SxaSWVSU8vtkKI5vyDDeXr12Ww+E=",
+  "Source": "Authn&Authz.WebApp",
+  "BasePath": "_content/Authn&Authz.WebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

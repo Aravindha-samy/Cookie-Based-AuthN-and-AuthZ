@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Authn&amp;Authz.WebApp.props" />
+</Project>
