@@ -1,0 +1,62 @@
+# Ignore Visual Studio specific files
+.vs/
+
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider specific files
+.idea/
+*.sln.iml
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+
+# Ignore logs and temp files
+*.log
+logs/
+Temp/
+
+# Ignore published files
+publish/
+wwwroot/
+
+# Ignore environment settings
+appsettings.*.json
+secrets.json
+
+# Ignore Resharper files
+_ReSharper.Caches/
+*.DotSettings.user
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore Docker files
+.dockerignore
+**/Dockerfile
+**/docker-compose*
+
+# Ignore generated files
+Generated_Code/
+
+# Ignore coverage files
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore JetBrains Rider/IDEA files
+.idea/
+*.sln.iml
