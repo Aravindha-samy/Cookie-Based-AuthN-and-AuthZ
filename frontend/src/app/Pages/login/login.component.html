@@ -1,0 +1,66 @@
+@if (errorMessage!=null) {
+    <h1>{{errorMessage}}</h1>
+}
+
+@if (!isloggein && Registered) {
+  
+
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  
+    <!-- Username Field -->
+    <div>
+      <input type="email" formControlName="username" placeholder="Email" />
+      <div *ngIf="loginForm.get('username')?.touched && loginForm.get('username')?.invalid">
+        <small *ngIf="loginForm.get('username')?.errors?.['required']">Email is required.</small>
+        <small *ngIf="loginForm.get('username')?.errors?.['email']">Please enter a valid email.</small>
+      </div>
+    </div>
+  
+    <!-- Password Field -->
+    <div>
+      <input type="password" formControlName="password" placeholder="Password" />
+      <div *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid">
+        <small *ngIf="loginForm.get('password')?.errors?.['required']">Password is required.</small>
+        <small *ngIf="loginForm.get('password')?.errors?.['minlength']">
+          Password must be at least 6 characters.
+        </small>
+      </div>
+    </div>
+  
+    <app-button type="submit" [placeHolder]="'Login'"></app-button>
+
+
+  </form>
+}
+  @else if (!isloggein &&!Registered) {
+  <form [formGroup]="loginForm" (ngSubmit)="onRegister()">
+  
+    <!-- Username Field -->
+    <div>
+      <input type="email" formControlName="username" placeholder="Email" />
+      <div *ngIf="loginForm.get('username')?.touched && loginForm.get('username')?.invalid">
+        <small *ngIf="loginForm.get('username')?.errors?.['required']">Email is required.</small>
+        <small *ngIf="loginForm.get('username')?.errors?.['email']">Please enter a valid email.</small>
+      </div>
+    </div>
+  
+    <!-- Password Field -->
+    <div>
+      <input type="password" formControlName="password" placeholder="Password" />
+      <div *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid">
+        <small *ngIf="loginForm.get('password')?.errors?.['required']">Password is required.</small>
+        <small *ngIf="loginForm.get('password')?.errors?.['minlength']">
+          Password must be at least 6 characters.
+        </small>
+      </div>
+    </div>
+  
+    <app-button type="submit" [placeHolder]="'Register'"></app-button>
+
+
+  </form>
+}
+
+    <h1>Welcome back!</h1>
+    <h1>Heeloo</h1>
+    <button type="button"  (click)="GetWeather()">Get Weather</button>
